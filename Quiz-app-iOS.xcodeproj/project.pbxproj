@@ -13,6 +13,7 @@
 		7CA6477F2AE78E0F0005E719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477D2AE78E0F0005E719 /* Main.storyboard */; };
 		7CA647812AE78E100005E719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647802AE78E100005E719 /* Assets.xcassets */; };
 		7CA647842AE78E100005E719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647822AE78E100005E719 /* LaunchScreen.storyboard */; };
+		7CA6478C2AE7C3AF0005E719 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6478B2AE7C3AF0005E719 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7CA647802AE78E100005E719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA647832AE78E100005E719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA647852AE78E100005E719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA6478B2AE7C3AF0005E719 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7CA647802AE78E100005E719 /* Assets.xcassets */,
 				7CA647822AE78E100005E719 /* LaunchScreen.storyboard */,
 				7CA647852AE78E100005E719 /* Info.plist */,
+				7CA6478B2AE7C3AF0005E719 /* Question.swift */,
 			);
 			path = "Quiz-app-iOS";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA6477C2AE78E0F0005E719 /* ViewController.swift in Sources */,
+				7CA6478C2AE7C3AF0005E719 /* Question.swift in Sources */,
 				7CA647782AE78E0F0005E719 /* AppDelegate.swift in Sources */,
 				7CA6477A2AE78E0F0005E719 /* SceneDelegate.swift in Sources */,
 			);
